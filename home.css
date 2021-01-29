@@ -1,0 +1,290 @@
+/*HOME - HEALTHEX DESIGN BRIEF*/
+
+:root {
+  --deepspacesparkle: rgb(56,95,113);
+  --onyx: rgb(50,55,59);
+  --green: rgb(112,181,131);
+  --sunray: rgb(232,211,51);
+  --blue: rgb(84,182,209);
+  --red: rgb(196,75,87);
+  --mangolia: rgb(245,240,246);
+}
+
+/*CLASSES*/
+.deepspacesparkle{color: var(--deepspacesparkle);}
+.onyx{color: var(--onyx);}
+.mangolia{color:var(--mangolia);}
+.green{color: var(--green);}
+.white{color:white;}
+.left-align{text-align:left;}
+.smaller-image{
+width: 150px;
+height: 40px;
+margin:auto;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-family: Raleway, Open Sans;
+}
+ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h1{
+  background: linear-gradient(to right, #5eeb6a,var(--green));
+  width:100%;
+  height: 50px;
+  text-align:center;
+  font-size: 3rem;
+  padding-top:100px;
+  padding-bottom: 25px;
+  font-family:sans-serif;
+  margin:auto;
+}
+form{
+  text-align: center;
+}
+textarea{
+  border-radius:7px;
+  height: 100px;
+  width:550px;
+  resize: none;
+}
+input{
+  width:550px;
+  height:25px;
+  border-radius: 10px;
+  padding:2px;
+}
+
+
+/*NAVIGATION*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: var(--mangolia);
+}
+h2{
+  font-size:22px;
+}
+.navlist {
+  list-style: none;
+  text-decoration: none;
+}
+.navlist a {
+  font-size: 25px;
+  padding: 15px;
+  color: var(--onyx);
+}
+li{
+  display:inline;
+}
+a:hover{
+  background: #135F72;
+  border-radius: 20px;
+  color:white;
+  font-family: sans-serif;
+  font-weight:normal;
+}
+
+/*WEBSITE IDS*/
+#logo2:hover{
+  background: none;
+}
+#intro-main{
+  background-image: url("jumpwithjoy.jpeg");
+  width:100%;
+  background-size:100% 100%;
+  display: grid;
+  grid-template-columns: 600px auto;
+  grid-template-rows: auto auto;
+  justify-content: space-evenly;
+  padding-right:20px;
+}
+#intro{
+  padding:220px;
+  color:black;
+  margin-bottom:auto;
+  background: white;
+  opacity:0.8;
+  width:300px;
+  height:200px;
+}
+#covid{
+  text-align: center;
+  margin-bottom:auto;
+  background-image: url("newbkg.png");
+}
+#covid2{
+  font-size:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+}
+#covid3{
+  color:white;
+}
+#self-assess{
+  font-size: 20px;
+  padding-left:30px;
+  padding-bottom: 15px;
+  margin-bottom: auto;
+}
+#googletest{
+  color:white;
+}
+#googletest:hover{
+  color:black;
+}
+#frontline{
+  margin-top:auto;
+}
+#covid3, #docs, #whyhealthex{
+  font-size:18px;
+  padding-left: 20px;
+  padding-right: 25px;
+  line-height: 27px;
+}
+#whyhealthex{
+  padding-top:7%;
+}
+#licensed, #verification{
+  font-size:18px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  line-height: 27px;
+}
+#one_tap, #best{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align:center;
+}
+#why_us{
+  color:black;
+  background:white;
+}
+#online_visits{
+  text-align: center;
+  background-image: url("newbkg.png");
+}
+#boxes2{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: space-evenly;
+  padding:20px;
+  padding-bottom:40px;
+}
+#sign_up, #bookapp, #consult, #planaction, #revisit, #feelbetter{
+  background-color: #135F72;
+  padding:20px;
+  width:300px;
+  color:white;
+  font-size:20px;
+}
+#boxes{
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: space-evenly;
+  padding:20px;
+  margin-top:auto;
+  background-image: url("newbkg.png");
+}
+#urgent_care, #men_health, #women_health, #counseling, #child_health, #viewProd{
+  background-color: #135F72;
+  color: white;
+  width:350px;
+  text-align: center;
+}
+#contact{
+  text-align: center;
+  color:black;
+  background:url("newbkg.png");
+  padding-bottom:70px;
+  margin-bottom:-50px;
+}
+#form{
+  width:700px;
+  background:#135F72;
+  margin:auto;
+  color: white;
+  padding: 20px;
+}
+#fname, #lname, #email, #pnumber, #comments{
+  padding:5px;
+}
+
+/*BUTTONS*/
+.getintouch{
+  color: var(--blue);
+  border-radius: 20px;
+  border-color: #135F72;
+  width:200px;
+  height:40px;
+  font-size: 20px;
+}
+.getintouch:hover{
+  background: linear-gradient(#5eeb6a, #1695b5);
+  color:white;
+}
+.getintouch2{
+  color: black;
+  border-radius: 20px;
+  border-color: #135F72;
+  width:200px;
+  height:40px;
+  font-size: 20px;
+}
+.getintouch2:hover{
+  background: linear-gradient(#69e1ff, #55b2c9);
+  color:white;
+}
+.prod{
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: var(--green);
+  border-color: var(--deepspacesparkle);
+  color: white;
+  width:130px;
+  height:24px;
+}
+.prod:hover{
+  background-color: var(--green);
+  color: white;
+}
+/*GRIDS*/
+#grid{
+  display: grid;
+  grid-template-columns: 600px auto;
+  grid-template-rows: auto auto;
+  justify-content: space-evenly;
+  padding-right:20px;
+}
+#grid3{
+  display: grid;
+  grid-template-columns: 300px auto auto auto 300px;
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+}
+/*FOOTER*/
+footer{
+  text-align: center;
+  background:linear-gradient(to right,#478959, var(--green));
+  color:white;
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:5px;
+  margin-top:auto;
+}
