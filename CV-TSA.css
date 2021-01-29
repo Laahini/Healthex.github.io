@@ -250,6 +250,9 @@ h4{
   color:#135F72;
   padding:10px;
 }
-#medialink:hover, #tsalink:hover{
+#medialink:hover{
+  color:white;
+}
+#tsalink:hover{
   color:white;
 }
