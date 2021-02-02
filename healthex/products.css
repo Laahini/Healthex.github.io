@@ -133,6 +133,16 @@ a:hover{
   grid-template-rows: auto;
   justify-content: space-evenly;
 }
+#grid4{
+  display:grid;
+  grid-template-columns: 85%;
+  grid-template-rows: auto auto auto auto auto;
+  background-color: #135F72;
+  color:white;
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+  padding:20%
+}
 /*FOOTER*/
 footer{
   text-align: center;
@@ -248,16 +258,31 @@ td{
     width:35%;
   }
   td{
-    width:100%;
+    width:55%;
+  }
+  input{
+    width:95%;
+    height:25px;
+    border-radius: 10px;
+    padding:2px;
+  }
+  #ptable{
+    display:none;
   }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
     display:none;
   }
+  #grid4{
+    display:none;
+  }
 }
 @media screen and (max-width:1000px){
   nav{
+    display:none;
+  }
+  #ptable{
     display:none;
   }
 }
