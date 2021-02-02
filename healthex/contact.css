@@ -109,7 +109,8 @@ ol{
 #contactinfo{
   background-color: #135F72;
   color: white;
-  padding:20px;
+  padding:5%;
+  width:100%
 }
 form{
   text-align: center;
