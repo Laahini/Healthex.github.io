@@ -140,9 +140,13 @@ a:hover{
   justify-content: space-evenly;
   background-color: #135F72;
   color:white;
-  grid-column-gap: 15px;
   grid-row-gap: 20px;
-  padding:20%
+  padding:20%;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  justify-content: space-evenly;
 }
 /*FOOTER*/
 footer{
