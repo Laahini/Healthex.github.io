@@ -269,7 +269,12 @@ td{
     background-color: #135F72;
     color: white;
     padding:3%;
-    width:15%;
+    width:45%;
+  }
+  td{
+    width:25%;
+    height:25px;
+    font-size:20px;
   }
 }
 @media screen and (min-width:1000px){
