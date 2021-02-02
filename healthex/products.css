@@ -148,7 +148,7 @@ form{
   text-align: center;
 }
 #bookform{
-  width:700px;
+  width:95%;
   background:var(--deepspacesparkle);
   margin:auto;
   margin-bottom:20px;
