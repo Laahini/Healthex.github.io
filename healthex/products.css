@@ -141,8 +141,8 @@ a:hover{
   background-color: var(--mangolia);
   color:white;
   padding:10%;
-  grid-row-gap: 20px;
-  grid-column-gap: 20px;
+  grid-row-gap: 1%;
+  grid-column-gap: 1%;
 }
 #urgent, #menwomen, #child, #counsel,#derma{
   background-color: #135F72;
