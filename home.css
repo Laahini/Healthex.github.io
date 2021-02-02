@@ -372,7 +372,7 @@ footer{
     padding: 20px;
   }
   input{
-    width:160%;
+    width:150%;
     height:25px;
     border-radius: 10px;
     padding:2px;
@@ -380,7 +380,7 @@ footer{
   textarea{
     border-radius:7px;
     height: 100px;
-    width:160%;
+    width:150%;
     resize: none;
   }
 }
