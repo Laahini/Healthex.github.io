@@ -332,6 +332,57 @@ footer{
     display: block;
     text-align: left;
   }
+  #grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    padding:10px;
+  }
+  #sec1, #docs, #licensed,#verification,#one_tap{
+    font-size:15px;
+    padding:10px;
+  }
+  #boxes2{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    justify-content: space-evenly;
+    padding:20px;
+    padding-bottom:40px;
+  }
+  #boxes{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    justify-content: space-evenly;
+    padding:20px;
+    margin-top:auto;
+    background-image: url("newbkg.png");
+  }
+  #form{
+    width:80%;
+    background:#135F72;
+    margin:auto;
+    color: white;
+    padding: 20px;
+  }
+  input{
+    width:200%;
+    height:25px;
+    border-radius: 10px;
+    padding:2px;
+  }
+  textarea{
+    border-radius:7px;
+    height: 100px;
+    width:200%;
+    resize: none;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
