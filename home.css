@@ -291,7 +291,7 @@ footer{
 /*Media Queries*/
 @media screen and (max-width:500px){
   nav {
-    display: flex;
+    display: grid;
     justify-content: space-around;
     width: 100%;
     background: var(--mangolia);
