@@ -151,9 +151,9 @@ form{
   width:95%;
   background:var(--deepspacesparkle);
   margin:auto;
-  margin-bottom:20px;
+  margin-bottom:5%;
   color: var(--mangolia);
-  padding: 20px;
+  padding: 1%;
 }
 .submitappoint{
   color: var(--blue);
@@ -243,6 +243,12 @@ td{
     padding-left:10%;
     background-color: #135F72;
     padding:20%;
+  }
+  label{
+    width:35%;
+  }
+  td{
+    width:100%;
   }
 }
 @media screen and (min-width:1000px){
