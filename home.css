@@ -304,8 +304,8 @@ footer{
     text-decoration: none;
   }
   .navlist a {
-    font-size: 25px;
-    padding: 15px;
+    font-size: 15px;
+    padding: 2px;
     color: var(--onyx);
   }
   li{
