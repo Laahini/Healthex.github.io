@@ -222,6 +222,28 @@ td{
     display: block;
     text-align: left;
   }
+  #grid3{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: space-evenly;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    padding:10px;
+  }
+  #grid2{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    padding-left:10%;
+    background-color: #135F72;
+    padding:20%;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
