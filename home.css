@@ -198,6 +198,7 @@ a:hover{
   grid-template-rows: auto auto auto;
   justify-content: space-evenly;
   padding:20px;
+  padding-right:1%;
   margin-top:auto;
   background-image: url("newbkg.png");
 }
