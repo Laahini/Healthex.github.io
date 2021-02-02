@@ -124,7 +124,7 @@ a:hover{
   grid-template-rows: auto auto;
   justify-content: space-evenly;
   padding:50px;
-  padding-left:100px;
+  padding-left:10%;
   background-color: #135F72;
 }
 #grid3{
