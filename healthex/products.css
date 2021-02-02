@@ -159,9 +159,9 @@ form{
   color: var(--blue);
   border-radius: 20px;
   border-color: #135F72;
-  width:30%;
+  width:40%;
   height:40px;
-  font-size: 20px;
+  font-size: 18px;
 }
 .submitappoint:hover{
   background: #135F72;
