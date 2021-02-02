@@ -110,7 +110,9 @@ ol{
   background-color: #135F72;
   color: white;
   padding:5%;
-  width:100%
+  width:45%;
+  margin-left: auto;
+  margin-right: auto;
 }
 form{
   text-align: center;
@@ -175,11 +177,6 @@ h4{
   padding-left: 20px;
   padding-right: 20px;
 }
-#contactinfo{
-  margin-left: auto;
-  margin-right: auto;
-  padding:50px;
-}
 td{
   width:200px;
   height:25px;
@@ -197,9 +194,8 @@ td{
 #intro{
   background:url("../newbkg.png");
   margin-bottom:auto;
-  padding-bottom:20px;
-  padding-top:20px;
   margin-top:auto;
+  padding:5%;
 }
 .topnav {
   background-color: #135F72;
