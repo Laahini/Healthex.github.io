@@ -182,6 +182,12 @@ h1{
     display: block;
     text-align: left;
   }
+  #grid3{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: space-evenly;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
