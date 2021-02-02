@@ -265,6 +265,14 @@ td{
     grid-template-rows: auto auto auto auto auto;
     justify-content: space-evenly;
   }
+  #contactinfo{
+    background-color: #135F72;
+    color: white;
+    padding:5%;
+    width:15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
