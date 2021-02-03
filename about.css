@@ -8,6 +8,10 @@
 #frameworks{
   padding-left:35px;
 }
+#frameworks a:hover{
+  background: none;
+  color:#135F72;
+}
 h2{
   padding:30px;
   background-color: #135F72;
