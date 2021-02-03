@@ -287,6 +287,14 @@ td{
     color: var(--mangolia);
     padding: 1%;
   }
+  .submitappoint{
+    color: var(--blue);
+    border-radius: 20px;
+    border-color: #135F72;
+    width:55%;
+    height:40px;
+    font-size: 12px;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
