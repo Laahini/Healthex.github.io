@@ -425,12 +425,12 @@ footer{
     height:95%;
   }
   .next {
-  right: -10%;
+  right: 0%;
   border-radius: 3px 0 0 3px;
   color:black;
   }
   .prev {
-    right: 110%;
+    right: 90%;
     border-radius: 3px 0 0 3px;
     color:black;
   }
