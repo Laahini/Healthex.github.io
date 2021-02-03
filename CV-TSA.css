@@ -299,6 +299,20 @@ h4{
     display: block;
     text-align: left;
   }
+  #grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+  }
+  #grid2{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    padding-right:5%;
+    padding-left: 5%;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
