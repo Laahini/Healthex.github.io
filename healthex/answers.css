@@ -192,6 +192,10 @@ h1{
     padding-left:5%;
     padding-right:5%;
   }
+  #questions{
+    padding:1%;
+    margin:auto;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
