@@ -12,6 +12,9 @@
   background: none;
   color:#135F72;
 }
+#frameworks a{
+  color:black;
+}
 h2{
   padding:30px;
   background-color: #135F72;
