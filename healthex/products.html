@@ -258,12 +258,11 @@ function navs() {
           <tr>
             <td style="width:25%;"><label for="gender" style="font-size:18px;">Gender</label><br></td>
             <td>
-              <input type="radio" id="male" name="gender" value="male">
-              <label for="male" style="font-size:18px;">Male</label>
-              <input type="radio" id="female" name="gender" value="female">
-              <label for="female" style="font-size:18px;">Female</label>
-              <input type="radio" id="other" name="gender" value="other">
-              <label for="other" style="font-size:18px;">Other</label>
+              <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
             </td>
           </tr>
           <tr>
@@ -277,16 +276,13 @@ function navs() {
           <tr>
             <td style="width:25%;"><label for="appointment" style="font-size:18px;">Appointment Type</label><br></td>
             <td>
-              <input type="radio" id="urgent" name="appointment" value="urgent">
-              <label for="urgent" style="font-size:18px;">Urgent Care</label>
-              <input type="radio" id="men/women" name="appointment" value="men/women">
-              <label for="men/women" style="font-size:18px;">Men/Women Health</label>
-              <input type="radio" id="child" name="appointment" value="child">
-              <label for="child" style="font-size:18px;">Children's Health</label>
-              <input type="radio" id="counsel" name="appointment" value="counsel">
-              <label for="counsel" style="font-size:18px;">Counseling</label>
-              <input type="radio" id="derma" name="appointment" value="derma">
-              <label for="derma" style="font-size:18px;">Dermatology</label>
+              <select name="appointment">
+                <option value="urgent">Urgent Care</option>
+                <option value="men/women">Men/Women Health</option>
+                <option value="child">Children's Health</option>
+                <option value="counsel">Counseling</option>
+                <option value="derma">Dermatology</option>
+              </select>
             </td>
           </tr>
         </table>
