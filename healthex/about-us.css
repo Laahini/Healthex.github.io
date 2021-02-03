@@ -218,6 +218,17 @@ ol{
     grid-template-rows: auto auto auto auto auto;
     justify-content: space-evenly;
   }
+  h1{
+    background: linear-gradient(to right, #5eeb6a,var(--green));
+    width:100%;
+    height: 100%;
+    text-align:center;
+    font-size: 3rem;
+    padding-top:100px;
+    padding-bottom: 25px;
+    font-family:sans-serif;
+    margin:auto;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
