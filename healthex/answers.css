@@ -196,6 +196,12 @@ h1{
     padding:1%;
     margin:auto;
   }
+  #grid2{
+    display: grid;
+    grid-template-columns: 80% 75%;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+  }
 }
 @media screen and (min-width:1000px){
   #myTopnav{
