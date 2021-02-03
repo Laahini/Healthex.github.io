@@ -3,6 +3,7 @@
   padding-left:50px;
   padding-right:50px;
   font-size:18px;
+  width:95%;
 }
 #frameworks{
   padding-left:35px;
@@ -64,6 +65,13 @@ h2{
     float: none;
     display: block;
     text-align: left;
+  }
+  #research-inspo, #frameworks, #media, #forms{
+    padding:5%;
+    padding-left:5%;
+    padding-right:5%;
+    font-size:18px;
+    width:95%;
   }
 }
 @media screen and (min-width:1000px){
