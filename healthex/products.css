@@ -280,7 +280,7 @@ td{
     display: none;
   }
   #bookform{
-    width:75%;
+    width:50%;
     background:var(--deepspacesparkle);
     margin:auto;
     margin-bottom:5%;
