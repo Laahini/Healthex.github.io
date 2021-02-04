@@ -143,7 +143,6 @@ a:hover{
   padding:10%;
   grid-row-gap: 1%;
   grid-column-gap: 1%;
-
 }
 #urgent, #menwomen, #child, #counsel,#derma{
   background-color: #135F72;
@@ -308,7 +307,7 @@ td{
     margin:auto;
   }
 }
-@media screen and (min-width:1200px){
+@media screen and (min-width:1000px){
   #myTopnav{
     display:none;
   }
@@ -317,15 +316,13 @@ td{
   }
 }
 @media screen and (max-width:1000px){
+  nav{
+    display:none;
+  }
   #ptable{
     display:none;
   }
   #pricetable{
-    display:none;
-  }
-}
-@media screen and (max-width:1200px){
-  nav{
     display:none;
   }
 }

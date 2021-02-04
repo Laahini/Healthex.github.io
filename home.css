@@ -414,12 +414,12 @@ footer{
     margin:auto;
   }
 }
-@media screen and (min-width:1250px){
+@media screen and (min-width:1000px){
   #myTopnav{
     display:none;
   }
 }
-@media screen and (max-width:1200px){
+@media screen and (max-width:1000px){
   nav{
     display:none;
   }
