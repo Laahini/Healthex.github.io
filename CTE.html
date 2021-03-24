@@ -296,31 +296,34 @@
       <span class="dot" onclick="current(3)"></span>
     </div>
   <script>
-  var index = 1;
-  show(index);
-  function plus(n) {
-    show(index += n);
-  }
-  function current(n) {
-    show(index = n);
-  }
-  function show(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var circles = document.getElementsByClassName("dot");
-    if (n > slides.length) {index = 1}
-    if (n < 1) {index = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+    var index = 1;
+    show(index);
+    function plus(n) {
+      show(index += n);
     }
-    for (i = 0; i < circles.length; i++) {
-        circles[i].className = circles[i].className.replace(" active", "");
+    function current(n) {
+      show(index = n);
     }
-    slides[index-1].style.display = "block";
-    circles[index-1].className += " active";
-  }
+    function show(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var circles = document.getElementsByClassName("dot");
+      if (n > slides.length) {index = 1}
+      if (n < 1) {index = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < circles.length; i++) {
+          circles[i].className = circles[i].className.replace(" active", "");
+        }
+        slides[index-1].style.display = "block";
+        circles[index-1].className += " active";
+      }
+
+
     </script>
   </section>
+
   <br></br>
 </body>
 <footer>
