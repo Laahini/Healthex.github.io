@@ -41,57 +41,22 @@
   <a href="CTE.html">CTE</a>
   <a href="CV-TSA.html">CV-TSA</a>
   <a href="about.html">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="navs()">
+  <a href="javascript:void(0);" class="icon" onclick="navigate()">
     <i class="fa fa-bars"></i>***
   </a>
 </div>
 
-<script>
-function navs() {
+  <script>
+    function navigate() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";}}
+    x.className = "topnav";
+  }
+}
+  </script>
 
-var accord = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < accord.length; i++) {
-  accord[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    }
-  });}
-
-var slideIndex = 1;
-showSlides(slideIndex);
-function plusSlides(n) {
-showSlides(slideIndex += n);
-}
-function currentSlide(n) {
-showSlides(slideIndex = n);
-}
-function showSlides(n) {
-var i;
-var slides = document.getElementsByClassName("mySlides");
-var dots = document.getElementsByClassName("dot");
-if (n > slides.length) {slideIndex = 1}
-if (n < 1) {slideIndex = slides.length}
-for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-}
-for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-}
-slides[slideIndex-1].style.display = "block";
-dots[slideIndex-1].className += " active";
-}
-</script>
   <section id="intro">
     <h1 class="white" style="margin-top:auto;">CAREER AND TECHNICAL EDUCATION</h1>
     <div id="grid">
@@ -258,6 +223,22 @@ dots[slideIndex-1].className += " active";
     </div>
       </section>
     </div>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
   </section>
 
   <section id="teachers">
@@ -305,15 +286,40 @@ dots[slideIndex-1].className += " active";
           <img src="game.jpg" class="slideimg">
           <div class="text">CV Student Game</div>
         </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <a class="prev" onclick="plus(-1)">&#10094;</a>
+      <a class="next" onclick="plus(1)">&#10095;</a>
     </div>
     <br>
     <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="current(1)"></span>
+      <span class="dot" onclick="current(2)"></span>
+      <span class="dot" onclick="current(3)"></span>
     </div>
+  <script>
+  var index = 1;
+  show(index);
+  function plus(n) {
+    show(index += n);
+  }
+  function current(n) {
+    show(index = n);
+  }
+  function show(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var circles = document.getElementsByClassName("dot");
+    if (n > slides.length) {index = 1}
+    if (n < 1) {index = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < circles.length; i++) {
+        circles[i].className = circles[i].className.replace(" active", "");
+    }
+    slides[index-1].style.display = "block";
+    circles[index-1].className += " active";
+  }
+    </script>
   </section>
   <br></br>
 </body>
