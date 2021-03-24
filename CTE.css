@@ -260,12 +260,12 @@ footer{
 * {
   box-sizing: border-box;
 }
-.journey {
+.pathway {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
-.journey::after {/*LINE*/
+.pathway::after {/*LINE*/
   content: '';
   position: absolute;
   width: 6px;
@@ -338,7 +338,7 @@ footer{
   font-size:13px;
 }
 @media screen and (max-width: 600px) {
-  .journey::after {
+  .pathway::after {
     left: 31px;
   }
   .container {
