@@ -127,19 +127,19 @@ function navs() {
             <div class="text">TSA Chapter Advisor - Mr. Jason Kofmehl</div>
           </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a class="prev" onclick="plus(-1)">&#10094;</a>
+        <a class="next" onclick="plus(1)">&#10095;</a>
       </div>
       <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-        <span class="dot" onclick="currentSlide(8)"></span>
-        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="current(1)"></span>
+        <span class="dot" onclick="current(2)"></span>
+        <span class="dot" onclick="current(3)"></span>
+        <span class="dot" onclick="current(4)"></span>
+        <span class="dot" onclick="current(5)"></span>
+        <span class="dot" onclick="current(6)"></span>
+        <span class="dot" onclick="current(7)"></span>
+        <span class="dot" onclick="current(8)"></span>
+        <span class="dot" onclick="current(9)"></span>
       </div>
       </div>
       <div>
@@ -150,28 +150,28 @@ function navs() {
     </div>
     </section>
   <script>
-  var slideIndex = 1;
-showSlides(slideIndex);
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+  var index = 1;
+show(index);
+function plus(n) {
+  show(index += n);
 }
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function current(n) {
+  show(index = n);
 }
-function showSlides(n) {
+function show(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  if (n > slides.length) {index = 1}
+  if (n < 1) {index = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  slides[index-1].style.display = "block";
+  dots[index-1].className += " active";
 }
   </script>
 
@@ -195,7 +195,7 @@ function showSlides(n) {
       </div>
     </div>
   </section>
-  <section>
+  <section id="creed">
     <h1 style="margin-top:15px;" class="white">CREED</h1>
     <p style="font-size:18px; line-height:27px; padding:50px;">"I believe that technology can be used in positive ways for the improvement of the world
       and that it is my duty to strive for this betterment. I believe in the use of cooperation, teamwork, honesty, and ethics to create solutions
@@ -203,7 +203,8 @@ function showSlides(n) {
       expand my knowledge and be open to new ideas while maintaining proper scientific knowledge and facts. I will continue efforts to increase the
       influence of technology in our world and display its benefits to the world."</p>
   </section>
-<br>
+
+  <br>
 </body>
 <footer>
   <p>Webmaster Team 2009-903</p>
