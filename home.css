@@ -28,8 +28,6 @@ html{
   font-family: Raleway, Open Sans;
   overflow-x: hidden;
   width:100%;
-  overflow: hidden;
-  cursor:url(cursor.png), auto;
 }
 ul {
   list-style: none;
