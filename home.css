@@ -69,6 +69,7 @@ nav {
   justify-content: space-around;
   width: 102%;
   background: var(--green);
+  top:0;
 }
 h2{
   font-size:22px;
@@ -103,7 +104,7 @@ a:hover{
   width:100%;
   background-size:100% 100%;
   display: grid;
-  grid-template-columns: 50% auto;
+  grid-template-columns: 50% 50%;
   grid-template-rows: auto auto;
   justify-content: space-evenly;
   padding-right:20px;
@@ -115,7 +116,7 @@ a:hover{
   background: white;
   opacity:0.85;
   width:300px;
-  height:200px;
+  height:200
 }
 #covid{
   text-align: center;
@@ -137,7 +138,7 @@ a:hover{
   padding-bottom: 15px;
   margin-bottom: auto;
 }
-#googletest{
+#googletest, #vaccines{
   color:white;
   border-radius: 20px;
   border-color: #135F72;
@@ -146,7 +147,7 @@ a:hover{
   font-size: 22px;
   padding:10px;
 }
-#googletest:hover{
+#googletest:hover, #vaccines:hover{
   color:white;
   width:250px;
   height:50px;
@@ -293,6 +294,11 @@ a:hover{
   grid-template-columns: 300px auto auto auto 300px;
   grid-template-rows: auto;
   justify-content: space-evenly;
+}
+#grid4{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
 }
 /*FOOTER*/
 footer{

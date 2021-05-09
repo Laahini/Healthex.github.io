@@ -127,14 +127,14 @@ form{
   font-size: 20px;
 }
 .getintouch:hover{
-  background: #135F72;
+  background: var(--green);
   color:white;
 }
 #logo2:hover{
   background: none;
 }
 /*CONTACT FORM*/
-#contact{
+#contact2{
   text-align: center;
 }
 #form{
