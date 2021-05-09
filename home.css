@@ -67,8 +67,8 @@ input{
 nav {
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  background: var(--mangolia);
+  width: 102%;
+  background: var(--green);
 }
 h2{
   font-size:22px;
@@ -80,14 +80,15 @@ h2{
 .navlist a {
   font-size: 25px;
   padding: 15px;
-  color: var(--onyx);
+  color: white;
+  font-weight: bolder;
 }
 li{
   display:inline;
 }
 a:hover{
   background: #135F72;
-  border-radius: 20px;
+  border-radius: 5px;
   color:white;
   font-family: sans-serif;
   font-weight:normal;
@@ -112,7 +113,7 @@ a:hover{
   color:black;
   margin-bottom:auto;
   background: white;
-  opacity:0.8;
+  opacity:0.85;
   width:300px;
   height:200px;
 }
@@ -138,9 +139,18 @@ a:hover{
 }
 #googletest{
   color:white;
+  border-radius: 20px;
+  border-color: #135F72;
+  width:250px;
+  height:50px;
+  font-size: 22px;
+  padding:10px;
 }
 #googletest:hover{
-  color:black;
+  color:white;
+  width:250px;
+  height:50px;
+  border-radius: 10px;
 }
 #frontline{
   margin-top:auto;
@@ -230,7 +240,7 @@ a:hover{
 
 /*BUTTONS*/
 .getintouch{
-  color: var(--blue);
+  color: #135F72;
   border-radius: 20px;
   border-color: #135F72;
   width:200px;
@@ -245,13 +255,17 @@ a:hover{
   color: black;
   border-radius: 20px;
   border-color: #135F72;
-  width:200px;
-  height:40px;
-  font-size: 20px;
+  width:250px;
+  height:50px;
+  font-size: 22px;
+  padding:10px;
+  font-weight: bolder;
+  margin:auto;
 }
 .getintouch2:hover{
-  background: #135F72;
   color:white;
+  width:250px;
+  height:50px;
 }
 .prod{
   font-size: 15px;

@@ -18,7 +18,6 @@
 .onyx{
   color: var(--onyx);
 }
-
 .mangolia{
   color:var(--mangolia);
 }
@@ -60,7 +59,7 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background: var(--mangolia);
+  background: #135F72;
 }
 h2{
   font-size:22px;
@@ -72,14 +71,15 @@ h2{
 .navlist a {
   font-size: 25px;
   padding: 15px;
-  color: var(--onyx);
+  color: white;
+  font-weight: bolder;
 }
 li{
   display:inline;
 }
 a:hover{
-  background: #135F72;
-  border-radius: 20px;
+  background: var(--green);
+  border-radius: 5px;
   color:white;
   font-family: sans-serif;
   font-weight:normal;
