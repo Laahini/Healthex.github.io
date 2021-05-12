@@ -62,6 +62,13 @@ nav {
 h2{
   font-size:22px;
 }
+h3{
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.cardimg{
+  border: 7px solid #135F72;
+}
 .navlist {
   list-style: none;
   text-decoration: none;
@@ -110,6 +117,12 @@ ol{
 .answer{
   font-size:15px;
   line-height:26px;
+}
+.vax{
+  color:white;
+
+  padding: 10px;
+  border: 2px solid white;
 }
 #logo2:hover{
   background: none;
@@ -196,7 +209,7 @@ h1{
   color: black;
 }
 .back {
-  background-color: dodgerblue;
+  background-color: #135F72;
   color: white;
   transform: rotateY(180deg);
 }
