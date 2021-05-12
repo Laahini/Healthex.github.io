@@ -59,7 +59,7 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background: #135F72;
+  background: #be0027;
 }
 h2{
   font-size:22px;
@@ -78,7 +78,7 @@ li{
   display:inline;
 }
 a:hover{
-  background: var(--green);
+  background: #2a2a2b;
   border-radius: 5px;
   color:white;
   font-family: sans-serif;
@@ -238,7 +238,7 @@ to {opacity: 1}
 }
 footer{
   text-align: center;
-  background:linear-gradient(to right,#478959, var(--green));
+  background:#135f72;
   color:white;
   padding-top:20px;
   padding-left:20px;
