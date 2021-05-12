@@ -134,9 +134,10 @@ a:hover{
 }
 #self-assess{
   font-size: 20px;
-  padding-left:30px;
-  padding-bottom: 15px;
+  padding:5%;
   margin-bottom: auto;
+  border: 5px solid #70b583;
+  border-radius: 10px;
 }
 #googletest, #vaccines{
   color:white;
@@ -301,7 +302,12 @@ a:hover{
 }
 #grid4{
   display:grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% auto;
+  grid-template-rows: auto;
+}
+#grid5{
+  display:grid;
+  grid-template-columns: auto auto auto;
   grid-template-rows: auto;
 }
 /*FOOTER*/
@@ -420,7 +426,7 @@ footer{
     justify-content: space-evenly;
     padding-right:20px;
   }
-  #grid3{
+  #grid3, #grid5{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
@@ -463,4 +469,15 @@ footer{
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+/*Counter*/
+#counter{
+  text-align: center;
+  margin-bottom:auto;
+  padding:3%;
+  background: #70b583
+}
+#counts{
+  background:#f4f4f4;
+  margin:10%;
 }
