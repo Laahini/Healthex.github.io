@@ -24,7 +24,7 @@ html{
 }
 ul {list-style: none;}
 a{text-decoration: none;}
-form{text-align: center;}
+form{text-align: left;}
 ol{align: center;}
 h1{
   width:50%;
@@ -96,12 +96,11 @@ a:hover{
 #talk{
   text-align: center;
   font-size:15px;
-  padding:15px;
+  padding-bottom:2%;
   background-color: #135F72;
   color:white;
   height:40%;
   margin:auto;
-  padding-bottom:10px;
 }
 #review{
   padding-top:1%;
@@ -113,6 +112,13 @@ a:hover{
   display:grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto;
+}
+#bookappointment, #appointmentform{
+  text-align: left;
+  color:black;
+  background:#2aabe4;
+  padding-bottom:70px;
+  margin-bottom:-50px;
 }
 /*GRIDS*/
 #grid{
@@ -174,18 +180,18 @@ form{
   margin:auto;
   margin-bottom:1%;
   color: var(--mangolia);
-  padding: 1%;
+  padding: 5%
 }
 .submitappoint{
-  color: var(--blue);
+  color: #135F72;
   border-radius: 20px;
   border-color: #135F72;
-  width:40%;
+  width:200px;
   height:40px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .submitappoint:hover{
-  background: #135F72;
+  background: #135f72;
   color:white;
 }
 input{
