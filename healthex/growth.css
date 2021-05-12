@@ -83,7 +83,7 @@ a:hover{
   padding:20px;
 }
 #timeline{
-  background:#2aabe4;
+  background:linear-gradient(to right,#2aabe4, #1ea6e3);
   margin-bottom:auto;
 }
 #newsgrid{
@@ -325,5 +325,5 @@ footer{
 #header{
   padding-top:7%;
   padding-bottom:1%;
-  background:#2aabe4;
+  background:linear-gradient(to right,#2aabe4, #1ea6e3);
 }

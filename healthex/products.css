@@ -163,7 +163,7 @@ a:hover{
 /*FOOTER*/
 footer{
   text-align: center;
-  background:linear-gradient(to right,#478959, var(--green));
+  background:var(--green);
   color:white;
   padding-top:20px;
   padding-left:20px;
