@@ -113,6 +113,15 @@ footer{
 ol{
   align: center;
 }
+#contactgrid{
+  display:grid;
+  grid-template-columns: 40% auto;
+  grid-template-rows: auto;
+  background:linear-gradient(to right bottom, #f4f4f4 50%, #9dc8ea 50%);
+  padding-top:7%;
+  padding-bottom:2%;
+  padding-left: 5%;
+}
 #contactinfo{
   background-color: #135F72;
   color: white;
@@ -200,13 +209,13 @@ td{
   justify-content: space-evenly;
 }
 #intro{
-  background:linear-gradient(#2aabe4,#9dc8e4);
+  background:#9dc8e4;
   margin-bottom:auto;
   margin-top:auto;
   padding:1%;
   padding-left:10%;
   padding-right:10%;
-  padding-bottom:10%;
+  padding-bottom:5%;
 }
 .topnav {
   background-color: #135F72;
