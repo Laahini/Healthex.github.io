@@ -42,7 +42,7 @@ nav {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  background: var(--green);
+  background: #ffcd24;
 }
 h2{
   font-size:22px;
@@ -54,7 +54,7 @@ h2{
 .navlist a {
   font-size: 25px;
   padding: 15px;
-  color: white;
+  color: black;
   font-weight: bolder;
 }
 li{
