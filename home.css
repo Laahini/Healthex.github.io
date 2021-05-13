@@ -366,14 +366,14 @@ footer{
 .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -421,7 +421,7 @@ footer{
     margin-top:auto;
   }
   #form{
-    width:100%;
+    width:90%;
     background:#135F72;
     margin:auto;
     color: white;
@@ -432,7 +432,7 @@ footer{
     margin-right:5%;
   }
   input{
-    width:100%;
+    width:50%;
     height:25px;
     border-radius: 10px;
     padding:2px;
@@ -481,8 +481,10 @@ footer{
     padding-left:0%;
     margin-left: 0%;
   }
+  label{
+    font-size: 12px;
+  }
   h1{
-
     width:100%;
     height: 100%;
     text-align:center;
