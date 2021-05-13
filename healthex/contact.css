@@ -279,6 +279,13 @@ td{
     width:100%;
     resize: none;
   }
+  #contactgrid{
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    background:linear-gradient(to right bottom, #f4f4f4 50%, #9dc8ea 50%);
+    padding:1%;
+  }
   #grid3{
     display: grid;
     grid-template-columns: auto;
