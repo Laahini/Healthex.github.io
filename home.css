@@ -475,8 +475,8 @@ footer{
     grid-template-rows: auto auto;
   }
   .whys{
-    padding-left:1%;
-    padding-right:1%;
+    padding-left:4%;
+    padding-right:0%;
   }
   .stethimg{
     padding-left:5%;
@@ -484,13 +484,17 @@ footer{
     height:100%;
     padding:1%;
     padding-right:1%;
+    margin:1.5%;
+  }
+  #googletest{
+    font-size:18px;
   }
   .thumbimg{
     width:100%;
     height:100%;
-    padding-left:0%;
-    margin-left: 0%;
-    padding:5%;
+    padding:3%;
+    margin-top:2%;
+    margin-left:-1%;
   }
   label{
     font-size: 12px;
