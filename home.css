@@ -402,7 +402,6 @@ footer{
   }
   #sec1{
     margin:-5%;
-    background: yellow;
   }
   #boxes2{
     display: grid;
@@ -455,7 +454,7 @@ footer{
     grid-template-columns: 40% auto;
     grid-template-rows: auto auto;
     justify-content: space-evenly;
-    padding-right:1%;
+    padding-right:5%;
   }
   #grid3{
     display: grid;
