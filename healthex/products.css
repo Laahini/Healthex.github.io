@@ -288,6 +288,7 @@ td{
     padding-left:10%;
     background-color: #135F72;
     padding:20%;
+    padding-top:5%;
   }
   label{
     width:25%;
@@ -331,7 +332,7 @@ td{
     text-align:center;
     font-size: 3rem;
     padding-top:100px;
-    padding-bottom: 25px;
+    padding-bottom: 2%;
     font-family:sans-serif;
     margin:auto;
     border:none;
