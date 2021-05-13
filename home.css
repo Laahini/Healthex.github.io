@@ -455,6 +455,7 @@ footer{
     grid-template-rows: auto auto;
     justify-content: space-evenly;
     padding-right:5%;
+    margin-right:5%;
   }
   #grid3{
     display: grid;
@@ -496,7 +497,7 @@ footer{
     opacity:0.85;
     width:95%;
     height:200;
-    margin-right:5%;
+    margin-right:25%;
   }
   .thumbimg{
     width:100%;
