@@ -454,7 +454,7 @@ footer{
     grid-template-columns: 0% auto;
     grid-template-rows: auto auto;
     justify-content: space-evenly;
-    padding-right:5%;
+    padding-right:1%;
     margin-right:5%;
   }
   #grid3{
