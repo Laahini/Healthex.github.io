@@ -1,12 +1,12 @@
 #research-inspo, #frameworks, #media, #forms{
   padding:20px;
-  padding-left:50px;
-  padding-right:50px;
+  padding-left:5%;
+  padding-right:5%;
   font-size:18px;
   width:95%;
 }
 #frameworks{
-  padding-left:35px;
+  padding-left:5%;
 }
 #frameworks a:hover{
   background: none;
@@ -15,13 +15,21 @@
 #frameworks a{
   color:black;
 }
+#intro{
+  margin-bottom:-5%;
+}
+h1{
+  padding-bottom:8%;
+  font-size:4rem;
+}
 h2{
   padding:30px;
-  background-color: #135F72;
+  background-color: #135f72;
   color:white;
   font-size: 30px;
   text-align:center;
   margin:auto;
+  margin-top:auto;
 }
 #forms a{
   color:black;
@@ -31,7 +39,7 @@ h2{
   color:#135F72;
 }
 .topnav {
-  background-color: #135F72;
+  background-color: #be0027;
   overflow: hidden;
 }
 .topnav a {
@@ -44,11 +52,11 @@ h2{
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: var(--mangolia);
-  color: black;
+  background-color: #242424;
+  color: white;
 }
 .topnav a.active {
-  background-color: #135F72;
+  background-color: #be0027;
   color: white;
 }
 .topnav .icon {
@@ -81,7 +89,6 @@ h2{
     width:95%;
   }
   h1{
-    background: linear-gradient(to right, #5eeb6a,var(--green));
     width:100%;
     height: 100%;
     text-align:center;
