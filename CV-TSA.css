@@ -108,7 +108,7 @@ footer{
   margin-top: 0;
 }
 #intro{
-  color:black;
+  color:#2a2a2b;
   margin-top:37px;
   margin-bottom:auto;
   width:100%;
@@ -261,7 +261,7 @@ h4{
   color:white;
 }
 .topnav {
-  background-color: #135F72;
+  background-color: #be0027;
   overflow: hidden;
 }
 .topnav a {
@@ -274,11 +274,11 @@ h4{
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: var(--mangolia);
-  color: black;
+  background-color: #2a2a2b;
+  color: white;
 }
 .topnav a.active {
-  background-color: #135F72;
+  background-color: #be0027;
   color: white;
 }
 .topnav .icon {
