@@ -366,14 +366,14 @@ footer{
 .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -480,7 +480,7 @@ footer{
     margin-left: 0%;
   }
   h1{
-    
+
     width:100%;
     height: 100%;
     text-align:center;
