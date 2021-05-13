@@ -325,6 +325,7 @@ footer{
 .topnav {
   background-color: #135F72;
   overflow: hidden;
+  width:100%;
 }
 .topnav a {
   float: left;
@@ -418,13 +419,13 @@ footer{
   }
   #intro-main{
     background-image: url("jumpwithjoy.jpeg");
-    width:90%;
+    width:99%;
     background-size:100% 100%;
     display: grid;
     grid-template-columns: 40% auto;
     grid-template-rows: auto auto;
     justify-content: space-evenly;
-    padding-right:20px;
+    padding-right:1%;
   }
   #grid3, #grid5{
     display: grid;
