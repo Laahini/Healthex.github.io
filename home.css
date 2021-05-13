@@ -491,13 +491,15 @@ footer{
   }
   #intro{
     padding:220px;
+    padding-right:1%;
+    padding-left:1%;
     color:black;
     margin-bottom:auto;
     background: white;
     opacity:0.85;
     width:95%;
     height:200;
-    margin-right:18%;
+    margin-right:17%;
   }
   .thumbimg{
     width:100%;
