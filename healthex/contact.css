@@ -261,11 +261,15 @@ td{
     text-align: left;
   }
   #form{
-    width:80%;
+    width:95%;
     background:#135F72;
     margin:auto;
     color: white;
-    padding: 20px;
+    padding: 2%;
+  }
+  #intro{
+    width:98%;
+    padding:1%;
   }
   input{
     width:100%;

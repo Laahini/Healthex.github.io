@@ -335,7 +335,11 @@ h4{
     width:100%;
   }
   .links{
-    margin:0px;
+    margin:auto;
+    padding-top:0%;
+  }
+  .social-container{
+    padding-top:0%;
   }
   #collage{
     padding:2%;
@@ -343,12 +347,12 @@ h4{
     margin-bottom:auto;
   }
   .container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 300px 300px 300px;
-      grid-column-gap: 5px;
-      grid-row-gap: 5px;
-      margin:2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin:2%;
   }
   .container img {
       width: 100%;
