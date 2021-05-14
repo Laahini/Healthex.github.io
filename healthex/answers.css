@@ -188,6 +188,7 @@ h1{
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   margin:2%;
+  margin-right:0%;
 }
 .innerflip{
   position: relative;
