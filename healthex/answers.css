@@ -250,6 +250,9 @@ h1{
     padding:1%;
     margin:auto;
   }
+  .cardimg{
+    border: 2px solid #135F72;
+  }
   #grid2{
     display: grid;
     grid-template-columns: auto;
