@@ -209,7 +209,7 @@ form{
   border-color:var(--green);
 }
 input{
-  width:400px;
+  width:200px;
   height:25px;
   border-radius: 10px;
   padding:2px;
