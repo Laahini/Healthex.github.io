@@ -3,20 +3,29 @@
   padding-left:5%;
   padding-right:5%;
   font-size:18px;
-  width:95%;
+  width:100%;
 }
 #frameworks{
-  padding-left:5%;
+  padding:5%;
+  width: 100%;
+  background: #135F72;
+  color:#f4f4f4;
 }
 #frameworks a:hover{
-  background: none;
-  color:#135F72;
+  background: #be0027;
+  padding:1%;
 }
 #frameworks a{
-  color:black;
+  color:white;
 }
 #intro{
   margin-bottom:-5%;
+}
+#forms{
+  margin-bottom: 0;
+}
+footer{
+  margin-top: 0;
 }
 body{
   line-height: 30px;
@@ -29,17 +38,19 @@ h2{
   padding:30px;
   background-color: #135f72;
   color:white;
-  font-size: 30px;
+  font-size: 2.5rem;
   text-align:center;
   margin:auto;
   margin-top:auto;
+  font-family: sans-serif;
+  font-weight: normal;
 }
 #forms a{
-  color:black;
+  color:#fafafa;
 }
 #forms a:hover{
-  background: none;
-  color:#135F72;
+  background: #242424;
+  padding: 2%;
 }
 .topnav {
   background-color: #be0027;
