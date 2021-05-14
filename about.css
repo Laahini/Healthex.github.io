@@ -18,6 +18,9 @@
 #intro{
   margin-bottom:-5%;
 }
+body{
+  line-height: 30px;
+}
 h1{
   padding-bottom:8%;
   font-size:4rem;
