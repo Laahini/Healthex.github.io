@@ -101,7 +101,7 @@ a:hover{
 /*FOOTER*/
 footer{
   text-align: center;
-  background:var(--green);
+  background:#135f72;
   color:white;
   padding-top:20px;
   padding-left:20px;
@@ -246,7 +246,7 @@ ol{
   }
 }
 #collage{
-  background:#135f72;
+  background:linear-gradient(#2aabe4,#135f72);
   padding:2%;
   margin-top:-1.5%;
   margin-bottom:auto;
