@@ -277,8 +277,9 @@ td{
   textarea{
     border-radius:7px;
     height: 100px;
-    width:99%;
+    width:100%;
     resize: none;
+    padding:2px;
   }
   #contactgrid{
     display:grid;
