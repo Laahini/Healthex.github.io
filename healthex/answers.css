@@ -110,13 +110,13 @@ ol{
   margin:auto;
 }
 .question{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 800;
   text-decoration: underline;
   font-family: sans-serif;
 }
 .answer{
-  font-size:15px;
+  font-size:18px;
   line-height:26px;
   font-family: sans-serif;
 }
