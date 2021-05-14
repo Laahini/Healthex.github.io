@@ -214,6 +214,7 @@ h1{
   background-color: #135F72;
   color: white;
   transform: rotateY(180deg);
+  width:325px;
 }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -252,7 +253,8 @@ h1{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-
+    margin-top:1%;
+    margin-bottom:1%;
   }
   h1{
     width:100%;
