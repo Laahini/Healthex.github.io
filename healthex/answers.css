@@ -68,6 +68,7 @@ h3{
 }
 .cardimg{
   border: 7px solid #135F72;
+
 }
 .navlist {
   list-style: none;
@@ -252,6 +253,8 @@ h1{
   }
   .cardimg{
     border: 2px solid #135F72;
+    width:295px;
+    height:295px;
   }
   #grid2{
     display: grid;
