@@ -142,7 +142,7 @@ form{
   font-size: 20px;
 }
 .getintouch:hover{
-  background: #135f72;
+  background: var(--green);
   color:white;
 }
 #logo2:hover{
