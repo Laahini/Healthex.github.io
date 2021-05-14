@@ -302,7 +302,7 @@ td{
     width:55%;
   }
   input,select{
-    width:75%;
+    width:500px;
     height:25px;
     border-radius: 10px;
     padding:2px;
@@ -324,12 +324,13 @@ td{
     padding: 1%;
   }
   .submitappoint{
-    color: var(--blue);
+    color: white;
     border-radius: 20px;
     border-color: #135F72;
     width:55%;
     height:40px;
-    font-size: 12px;
+    font-size: 15px;
+    font-family: sans-serif;
   }
   h1{
     width:100%;
