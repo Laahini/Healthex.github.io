@@ -69,7 +69,8 @@ nav {
   top:0;
 }
 h2{
-  font-size:22px;
+  font-size:30px;
+  font-family: sans-serif;
 }
 .navlist {
   list-style: none;
@@ -163,6 +164,9 @@ a:hover{
   border: 5px solid #70b583;
   border-radius: 10px;
 }
+#self-assess:hover{
+  background: #70b583;
+}
 #googletest, #vaccines{
   color:white;
   border-radius: 20px;
@@ -177,6 +181,7 @@ a:hover{
   width:250px;
   height:50px;
   border-radius: 10px;
+  background: #70b583;
 }
 #frontline{
   margin-top:auto;
@@ -425,7 +430,7 @@ footer{
   }
   #form{
     width:90%;
-    background:#135F72;
+    background:#ffcd24;
     margin:auto;
     color: white;
     padding: 1%;
@@ -491,7 +496,7 @@ footer{
   }
   #intro{
     padding:220px;
-    padding-right:5%;
+    padding-right:6%;
     padding-left:2%;
     color:black;
     margin-bottom:auto;
@@ -558,4 +563,5 @@ footer{
 #counts{
   background:#f4f4f4;
   margin:10%;
+  font-family: sans-serif;
 }
