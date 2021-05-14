@@ -209,10 +209,11 @@ form{
   border-color:var(--green);
 }
 input{
-  width:200px;
+  width:400px;
   height:25px;
   border-radius: 10px;
   padding:2px;
+  margin:1%;
 }
 select{
   appearance:none;
@@ -222,6 +223,7 @@ select{
   height:30px;
   border: 1px solid black;
   border-radius: 10px;
+  margin:1%;
 }
 label{
   width:200px;
@@ -302,7 +304,7 @@ td{
     width:55%;
   }
   input,select{
-    width:100px;
+    width:200px;
     height:25px;
     border-radius: 5px;
     padding:2px;
